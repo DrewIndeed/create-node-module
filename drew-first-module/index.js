@@ -15,8 +15,8 @@ const allColors = [
 ];
 
 /*
-    When other modules import this module, both allColors and getRandomColor() 
-    will be exposed and available for usage.
+  When other modules import this module, both allColors and getRandomColor() 
+  will be exposed and available for usage.
 */
 
 exports.getRandomColor = () => {
