@@ -33,6 +33,9 @@ to files or directories in your computer. Linking a module is done in two steps:
     
     - node index.js
     * to run your app again to test if the linking process has been done correctly
+   
+   - Adjust ./drew-first-module/index.js and ./really-large-project/index.js
+   * to test if the module is automatically update
 */
 
 const colors = require('drew-first-module');
@@ -48,3 +51,4 @@ const favoriteColor = colors.getBlue();
 console.log(
   `My favorite color is ${favoriteColor.name}/${favoriteColor.code}, btw`
 );
+

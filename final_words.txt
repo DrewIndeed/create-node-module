@@ -1,0 +1,14 @@
+As you write larger and more complex applications, think about how related code can be grouped into modules, and how you want these modules to be set up. 
+
+If your module is only going to be used by one program, it can stay within the same project and be referenced by a relative path. 
+
+If your module will later be shared separately or exists in a very different location from the project you are working on now, installing or linking might be more viable. 
+
+Modules in active development also benefit from the automatic updates of linking. 
+
+If the module is not under active development, using npm install may be the easier option.
+
+
+Now that you know how to create modules, think about the type of program you want to write and break it down into various components, keeping each unique set of activities and data in their own modules. 
+
+The more practice you get writing modules, the better your ability to write quality Node.js programs on your learning journey
